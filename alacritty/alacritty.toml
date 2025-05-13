@@ -6,6 +6,7 @@ live_config_reload = true
 TERM = "xterm-256color"
 
 [window]
+decorations = "None"
 startup_mode = "Windowed"
 dynamic_padding = true
 opacity = 1.0
@@ -50,9 +51,13 @@ mods = "Control|Shift"
 action = "ScrollPageUp"
 key = "PageUp"
 mode = "~Alt"
-mods = "None"
 
 [[keyboard.bindings]]
 action = "ScrollPageDown"
 key = "PageDown"
 mode = "~Alt"
+
+[[keyboard.bindings]]
+action = "ToggleFullscreen"
+key = "Return"
+mods = "Shift|Super"
