@@ -48,16 +48,16 @@ key = "Return"
 mods = "Control|Shift"
 
 [[keyboard.bindings]]
+action = "ToggleFullscreen"
+key = "Return"
+mods = "Control"
+
+[[keyboard.bindings]]
 action = "ScrollPageUp"
 key = "PageUp"
-mode = "~Alt"
+mods = "Shift"
 
 [[keyboard.bindings]]
 action = "ScrollPageDown"
 key = "PageDown"
-mode = "~Alt"
-
-[[keyboard.bindings]]
-action = "ToggleFullscreen"
-key = "Return"
-mods = "Shift|Super"
+mods = "Shift"
