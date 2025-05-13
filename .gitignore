@@ -2,6 +2,8 @@
 /*/
 !.gitignore
 !alacritty
+!ghostty
 !tmux
 tmux/plugins/*
 !bashrc
+

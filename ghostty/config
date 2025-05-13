@@ -1,0 +1,14 @@
+# Alt as meta at macos
+macos-option-as-alt = left
+keybind = alt+left=unbind
+keybind = alt+right=unbind
+
+theme = catppuccin-mocha
+# theme = GruvboxDark
+font-family = CaskaydiaCove Nerd Font
+# font-family = CaskaydiaMono Nerd Font
+# font-family = Meslo LGS Nerd Font Mono
+font-size = 12
+gtk-titlebar = false
+
+
